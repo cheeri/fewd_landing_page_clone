@@ -435,14 +435,10 @@ th {
 }
 
 
-body {  
-  background-color: LightGray;
-}
-div {
-  border: 1px solid Chocolate;
-}
 
-h1, h3 {
+
+
+h1, h3, h2 {
   font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
   color: white; 
@@ -531,6 +527,8 @@ img.logo {
   
 }
 
+
+
 .big-button {
     text-shadow: none;
     border-style: none;
@@ -538,6 +536,41 @@ img.logo {
     padding: 16px 26px;
     line-height: 1.33;
     background-color: #f15a29;
+}
+
+.cases {
+  background-color: #fff;
+
+}
+.cases .content {
+  text-align: center;
+}
+.content h2{
+  font-size:40px;
+  text-align: center;
+  color: black;
+  
+}
+
+
+
+.devices li {
+  display: inline-block;
+  width: 32%;
+}
+
+
+
+.caption h2{
+  display:block;
+  font-size: 20px;
+}
+
+
+
+.social {
+  
+  text-align: center;
 }
 
 
